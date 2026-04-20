@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Run tests
+        run: cargo test
+      - name: Ensure demo examples are current
+        run: |
+          cargo run --bin generate_examples
+          git diff --exit-code -- docs/examples.json
+
+  build-wasi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-wasip1
+      - name: Build WASI renderer
+        run: cargo build --release --target wasm32-wasip1 --bin demo_wasi
+      - name: Verify demo assets exist
+        run: |
+          test -f docs/index.html
+          test -f docs/app.js
+          test -f docs/styles.css
+          test -f docs/examples.json

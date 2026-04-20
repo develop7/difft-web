@@ -99,6 +99,7 @@ pub fn generate_structured_diff(
     })
 }
 
+#[cfg(not(target_os = "wasi"))]
 fn fallback_language_name(language_extension: &str) -> String {
     match language_extension {
         "rs" => "Rust",
