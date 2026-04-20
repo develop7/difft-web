@@ -181,7 +181,7 @@ fn render_side(source: &str, spans: &[Span]) -> String {
             let start = span.start_col as usize;
             let end = span.end_col as usize;
 
-            if start > line_len || end > line_len || start >= end || start < cursor {
+            if !is_valid_span(start, end, line_len, cursor) {
                 continue;
             }
 
@@ -203,6 +203,10 @@ fn render_side(source: &str, spans: &[Span]) -> String {
     }
 
     output
+}
+
+fn is_valid_span(start: usize, end: usize, line_len: usize, cursor: usize) -> bool {
+    start <= line_len && end <= line_len && start < end && start >= cursor
 }
 
 fn escape_html(input: &str) -> String {
