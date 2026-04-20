@@ -1,0 +1,491 @@
+[
+  {
+    "language": "Rust",
+    "lhs_path": "before.rs",
+    "rhs_path": "after.rs",
+    "lhs_source": "fn sum(a: i32, b: i32) -> i32 {\n    a + b\n}\n",
+    "rhs_source": "fn sum(a: i32, b: i32) -> i32 {\n    a + b + 1\n}\n",
+    "lhs_spans": [
+      {
+        "line": 0,
+        "start_col": 0,
+        "end_col": 31,
+        "novel": false
+      },
+      {
+        "line": 1,
+        "start_col": 0,
+        "end_col": 1,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 1,
+        "end_col": 2,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 2,
+        "end_col": 3,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 3,
+        "end_col": 4,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 4,
+        "end_col": 5,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 5,
+        "end_col": 6,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 6,
+        "end_col": 7,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 7,
+        "end_col": 8,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 8,
+        "end_col": 9,
+        "novel": true
+      },
+      {
+        "line": 2,
+        "start_col": 0,
+        "end_col": 1,
+        "novel": false
+      }
+    ],
+    "rhs_spans": [
+      {
+        "line": 0,
+        "start_col": 0,
+        "end_col": 31,
+        "novel": false
+      },
+      {
+        "line": 1,
+        "start_col": 0,
+        "end_col": 1,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 1,
+        "end_col": 2,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 2,
+        "end_col": 3,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 3,
+        "end_col": 4,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 4,
+        "end_col": 5,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 5,
+        "end_col": 6,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 6,
+        "end_col": 7,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 7,
+        "end_col": 8,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 8,
+        "end_col": 9,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 9,
+        "end_col": 10,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 10,
+        "end_col": 11,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 11,
+        "end_col": 12,
+        "novel": true
+      },
+      {
+        "line": 1,
+        "start_col": 12,
+        "end_col": 13,
+        "novel": true
+      },
+      {
+        "line": 2,
+        "start_col": 0,
+        "end_col": 1,
+        "novel": false
+      }
+    ]
+  },
+  {
+    "language": "Haskell",
+    "lhs_path": "before.hs",
+    "rhs_path": "after.hs",
+    "lhs_source": "sumTwo a b = a + b\n",
+    "rhs_source": "sumTwo a b = a + b + 1\n",
+    "lhs_spans": [
+      {
+        "line": 0,
+        "start_col": 0,
+        "end_col": 6,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 6,
+        "end_col": 7,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 7,
+        "end_col": 8,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 8,
+        "end_col": 9,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 9,
+        "end_col": 10,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 10,
+        "end_col": 11,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 11,
+        "end_col": 12,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 12,
+        "end_col": 13,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 13,
+        "end_col": 14,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 14,
+        "end_col": 15,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 15,
+        "end_col": 16,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 16,
+        "end_col": 17,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 17,
+        "end_col": 18,
+        "novel": true
+      }
+    ],
+    "rhs_spans": [
+      {
+        "line": 0,
+        "start_col": 0,
+        "end_col": 6,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 6,
+        "end_col": 7,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 7,
+        "end_col": 8,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 8,
+        "end_col": 9,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 9,
+        "end_col": 10,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 10,
+        "end_col": 11,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 11,
+        "end_col": 12,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 12,
+        "end_col": 13,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 13,
+        "end_col": 14,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 14,
+        "end_col": 15,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 15,
+        "end_col": 16,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 16,
+        "end_col": 17,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 17,
+        "end_col": 18,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 18,
+        "end_col": 19,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 19,
+        "end_col": 20,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 20,
+        "end_col": 21,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 21,
+        "end_col": 22,
+        "novel": true
+      }
+    ]
+  },
+  {
+    "language": "TypeScript",
+    "lhs_path": "before.ts",
+    "rhs_path": "after.ts",
+    "lhs_source": "export const answer = 41;\n",
+    "rhs_source": "export const answer = 42;\n",
+    "lhs_spans": [
+      {
+        "line": 0,
+        "start_col": 0,
+        "end_col": 6,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 6,
+        "end_col": 7,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 7,
+        "end_col": 12,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 12,
+        "end_col": 13,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 13,
+        "end_col": 19,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 19,
+        "end_col": 20,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 20,
+        "end_col": 21,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 21,
+        "end_col": 22,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 22,
+        "end_col": 24,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 24,
+        "end_col": 25,
+        "novel": true
+      }
+    ],
+    "rhs_spans": [
+      {
+        "line": 0,
+        "start_col": 0,
+        "end_col": 6,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 6,
+        "end_col": 7,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 7,
+        "end_col": 12,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 12,
+        "end_col": 13,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 13,
+        "end_col": 19,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 19,
+        "end_col": 20,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 20,
+        "end_col": 21,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 21,
+        "end_col": 22,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 22,
+        "end_col": 24,
+        "novel": true
+      },
+      {
+        "line": 0,
+        "start_col": 24,
+        "end_col": 25,
+        "novel": true
+      }
+    ]
+  }
+]
